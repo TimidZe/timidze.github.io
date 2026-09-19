@@ -1,0 +1,230 @@
+/* ==========================================================================
+   Personal academic homepage — minimal centered-column layout
+   Typography and proportions modelled on a classic DokuWiki academic page.
+   ========================================================================== */
+
+:root {
+  --font-sans: Arial, "Helvetica Neue", Helvetica, "PingFang SC",
+               "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --page-bg:   #fbfaf9;
+  --card-bg:   #ffffff;
+  --border:    #dcd8d3;
+  --text:      #2b2b2b;
+  --muted:     #6b6762;
+  --link:      #2a6ebb;
+  --link-hover:#17457c;
+  --content-width: 760px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--page-bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+/* ---- Page frame -------------------------------------------------------- */
+
+.page {
+  max-width: calc(var(--content-width) + 120px);
+  margin: 0 auto;
+  padding: 32px 16px 56px;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+  padding: 38px 46px 46px;
+}
+
+.site-footer {
+  margin-top: 18px;
+  font-size: 12.5px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* ---- Links ------------------------------------------------------------- */
+
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+
+/* ---- Headings ---------------------------------------------------------- */
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  line-height: 1.25;
+  color: #1c1c1c;
+  margin: 0;
+}
+
+.site-name {
+  font-size: 2.15em;
+  letter-spacing: -.01em;
+  margin-bottom: .55em;
+}
+
+h2 {
+  font-size: 1.55em;
+  margin: 2.1em 0 .75em;
+  padding-top: .55em;
+  border-top: 1px solid #ececea;
+}
+
+h2:first-of-type { margin-top: 1.4em; }
+
+h3 { font-size: 1.12em; margin: 1.7em 0 .5em; }
+h4 { font-size: 1em;    margin: 1.4em 0 .4em; }
+
+p { margin: 0 0 1.05em; }
+
+ul, ol { margin: 0 0 1.05em; padding-left: 1.6em; }
+li { margin-bottom: .3em; }
+
+hr { border: 0; border-top: 1px solid #ececea; margin: 2em 0; }
+
+img { max-width: 100%; height: auto; }
+
+code, pre {
+  font-family: Consolas, Monaco, "Courier New", monospace;
+  font-size: .92em;
+  background: #f5f4f2;
+}
+code { padding: .1em .3em; border-radius: 2px; }
+pre { padding: .8em 1em; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+
+blockquote {
+  margin: 0 0 1.05em;
+  padding-left: 1em;
+  border-left: 3px solid #e3e0dc;
+  color: var(--muted);
+}
+
+/* ---- Header / profile block -------------------------------------------- */
+
+.profile { margin-bottom: 1.2em; }
+
+.profile-photo {
+  display: block;
+  width: 150px;
+  border: 1px solid var(--border);
+  margin-bottom: 1.1em;
+}
+
+.profile-meta { font-size: 1em; }
+.profile-meta div { margin-bottom: .1em; }
+
+.profile-links { margin-top: .7em; }
+
+/* ---- Research projects ------------------------------------------------- */
+
+.project-list { margin: 0 0 .4em; }
+
+.project-row {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 14px 10px;
+  margin: 0 -10px;
+  color: inherit;
+  border-bottom: 1px solid #f0eeec;
+}
+
+.project-row:last-child { border-bottom: 0; }
+
+.project-row:hover { background: #fafaf8; text-decoration: none; }
+
+.project-thumb {
+  flex: 0 0 180px;
+  width: 180px;
+}
+
+.project-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--border);
+  background: #f3f2f0;
+}
+
+.project-name {
+  font-size: 1.08em;
+  font-weight: bold;
+  color: var(--link);
+  line-height: 1.4;
+}
+
+.project-row:hover .project-name { color: var(--link-hover); text-decoration: underline; }
+
+.project-tagline {
+  margin-top: .3em;
+  font-size: .92em;
+  color: var(--muted);
+}
+
+/* ---- Project detail page ----------------------------------------------- */
+
+.backlink { font-size: .92em; margin-bottom: 1.6em; }
+
+.project-title { font-size: 1.85em; margin-bottom: .35em; }
+
+.project-subtitle {
+  font-size: 1.02em;
+  color: var(--muted);
+  margin-bottom: 1.4em;
+}
+
+.project-figure { margin: 0 0 1.6em; }
+.project-figure img { display: block; width: 100%; border: 1px solid var(--border); }
+.project-figure figcaption {
+  margin-top: .55em;
+  font-size: .88em;
+  color: var(--muted);
+}
+
+.project-links { margin-top: 1.8em; font-size: .95em; }
+
+/* ---- Publications ------------------------------------------------------ */
+
+.pub-group {
+  font-size: 1.08em;
+  margin: 1.6em 0 .6em;
+  color: #333;
+}
+
+.pub-list { padding-left: 1.5em; margin-bottom: 1.2em; }
+
+.pub-item { margin-bottom: .85em; line-height: 1.5; }
+
+.pub-title { font-weight: bold; }
+.pub-authors { font-size: .95em; }
+.pub-venue { font-size: .95em; font-style: italic; color: #4a4a4a; }
+.pub-note, .pub-links { font-size: .9em; color: var(--muted); }
+.pub-links { margin-left: .3em; }
+
+/* ---- Awards ------------------------------------------------------------ */
+
+.award-list { list-style: square; }
+.award-year { font-weight: bold; margin-right: .35em; }
+.award-org { color: var(--muted); }
+
+/* ---- Small screens ----------------------------------------------------- */
+
+@media (max-width: 640px) {
+  body { font-size: 15.5px; }
+  .page { padding: 14px 10px 36px; }
+  .card { padding: 24px 20px 30px; }
+  .site-name { font-size: 1.8em; }
+  h2 { font-size: 1.35em; }
+  .project-row { gap: 14px; }
+  .project-thumb { flex: 0 0 110px; width: 110px; }
+}

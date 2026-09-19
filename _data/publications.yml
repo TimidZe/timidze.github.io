@@ -1,0 +1,41 @@
+# Publications, grouped by topic (or by year — the group name is free text).
+# Delete or add groups and items as you like.
+
+- group: "Journal Articles"
+  items:
+    - title: "PLACEHOLDER — title of the first paper"
+      authors: "Hongze Song, Co-Author A, Co-Author B"
+      venue: "PLACEHOLDER Journal Name"
+      year: 2026
+      note: "under review"
+      url: ""
+      links:
+        - name: "PDF"
+          url: "#"
+        - name: "arXiv"
+          url: "#"
+
+    - title: "PLACEHOLDER — title of the second paper"
+      authors: "Co-Author A, Hongze Song, Co-Author B"
+      venue: "PLACEHOLDER Journal Name"
+      year: 2025
+      links:
+        - name: "DOI"
+          url: "#"
+
+- group: "Conference Papers"
+  items:
+    - title: "PLACEHOLDER — title of a conference paper"
+      authors: "Hongze Song, Co-Author A"
+      venue: "PLACEHOLDER Conference (ABBR)"
+      year: 2025
+      links:
+        - name: "PDF"
+          url: "#"
+
+- group: "Preprints"
+  items:
+    - title: "PLACEHOLDER — title of a preprint"
+      authors: "Hongze Song, Co-Author A"
+      venue: "arXiv:0000.00000"
+      year: 2026

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<p class="backlink"><a href="{{ '/' | relative_url }}">&larr; Back to home</a></p>
+
+<h1 class="project-title">{{ page.title }}</h1>
+
+{% if page.subtitle %}<p class="project-subtitle">{{ page.subtitle }}</p>{% endif %}
+
+{% if page.image %}
+<figure class="project-figure">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  {% if page.caption %}<figcaption>{{ page.caption }}</figcaption>{% endif %}
+</figure>
+{% endif %}
+
+<div class="project-body">
+  {{ content }}
+</div>
+
+{% if page.links and page.links.size > 0 %}
+<p class="project-links">
+  {% for l in page.links %}<a href="{{ l.url }}">{{ l.name }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
+</p>
+{% endif %}

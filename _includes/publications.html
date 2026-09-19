@@ -1,0 +1,16 @@
+{% for group in site.data.publications %}
+<h3 class="pub-group">{{ group.group }}</h3>
+<ol class="pub-list">
+  {% for p in group.items %}
+  <li class="pub-item">
+    <span class="pub-title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span><br>
+    <span class="pub-authors">{{ p.authors }}</span><br>
+    <span class="pub-venue">{{ p.venue }}{% if p.year %}, {{ p.year }}{% endif %}</span>
+    {% if p.note %}<span class="pub-note">({{ p.note }})</span>{% endif %}
+    {% if p.links and p.links.size > 0 %}
+    <span class="pub-links">{% for l in p.links %}[<a href="{{ l.url }}">{{ l.name }}</a>]{% unless forloop.last %} {% endunless %}{% endfor %}</span>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>
+{% endfor %}

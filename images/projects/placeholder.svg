@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-label="Placeholder figure">
+  <rect width="400" height="300" fill="#f1efec"/>
+  <g fill="none" stroke="#cfcac3" stroke-width="2">
+    <rect x="0.5" y="0.5" width="399" height="299"/>
+    <path d="M0 300 L400 0 M0 0 L400 300"/>
+  </g>
+  <rect x="120" y="128" width="160" height="44" fill="#f1efec"/>
+  <text x="200" y="157" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#8d877f">Project figure</text>
+</svg>

@@ -1,0 +1,16 @@
+<h1 class="site-name">{{ site.author.name }}</h1>
+
+<div class="profile">
+  {% if site.author.photo %}
+  <img class="profile-photo" src="{{ site.author.photo | relative_url }}" alt="{{ site.author.name }}">
+  {% endif %}
+  <div class="profile-meta">
+    {% for t in site.author.titles %}<div>{{ t }}</div>{% endfor %}
+    {% if site.author.email %}<div>Email: {{ site.author.email | replace: '@', ' <b>at</b> ' | replace: '.', ' <b>dot</b> ' }}</div>{% endif %}
+    {% if site.author.links and site.author.links.size > 0 %}
+    <div class="profile-links">
+      {% for l in site.author.links %}<a href="{{ l.url }}">{{ l.name }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>

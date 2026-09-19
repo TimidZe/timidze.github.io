@@ -1,0 +1,14 @@
+{% assign items = site.projects | sort: 'order' %}
+<div class="project-list">
+  {% for p in items %}
+  <a class="project-row" href="{{ p.url | relative_url }}">
+    <div class="project-thumb">
+      <img src="{{ p.image | default: '/images/projects/placeholder.svg' | relative_url }}" alt="{{ p.title }}">
+    </div>
+    <div class="project-info">
+      <div class="project-name">{{ p.title }}</div>
+      {% if p.subtitle %}<div class="project-tagline">{{ p.subtitle }}</div>{% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</div>
