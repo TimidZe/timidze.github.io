@@ -141,8 +141,8 @@ blockquote {
   margin-top: .05em;
 }
 
-.aff-icon-mail {
-  padding: 2px;
+.aff-spacer {
+  flex: 0 0 22px;
 }
 
 .profile-links { margin-top: .7em; }

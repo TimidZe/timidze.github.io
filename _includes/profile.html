@@ -12,9 +12,9 @@
     </li>
     {% endfor %}
     {% if site.author.email %}
-    <li>
-      {% if site.author.email_icon %}<img class="aff-icon aff-icon-mail" src="{{ site.author.email_icon | relative_url }}" alt="Email">{% endif %}
-      <span>{{ site.author.email | replace: '@', ' <b>at</b> ' | replace: '.', ' <b>dot</b> ' }}</span>
+    <li class="aff-email">
+      <span class="aff-spacer"></span>
+      <span>Email: {{ site.author.email | replace: '@', ' <b>at</b> ' | replace: '.', ' <b>dot</b> ' }}</span>
     </li>
     {% endif %}
   </ul>
