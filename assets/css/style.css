@@ -134,11 +134,15 @@ blockquote {
 }
 
 .aff-icon {
-  flex: 0 0 22px;
-  width: 22px;
-  height: 22px;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
   object-fit: contain;
-  margin-top: .12em;
+  margin-top: .05em;
+}
+
+.aff-icon-mail {
+  padding: 2px;
 }
 
 .profile-links { margin-top: .7em; }

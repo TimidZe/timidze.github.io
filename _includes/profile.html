@@ -13,7 +13,7 @@
     {% endfor %}
     {% if site.author.email %}
     <li>
-      {% if site.author.email_icon %}<img class="aff-icon" src="{{ site.author.email_icon | relative_url }}" alt="Email">{% endif %}
+      {% if site.author.email_icon %}<img class="aff-icon aff-icon-mail" src="{{ site.author.email_icon | relative_url }}" alt="Email">{% endif %}
       <span>{{ site.author.email | replace: '@', ' <b>at</b> ' | replace: '.', ' <b>dot</b> ' }}</span>
     </li>
     {% endif %}

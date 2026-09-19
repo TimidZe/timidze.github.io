@@ -13,7 +13,7 @@ lang             : "en"
 # ---------------------------------------------------------------------------
 author:
   name      : "Hongze Song"
-  photo     : "/images/profile.png"
+  photo     : "/images/MyPhoto.jpeg"
   email     : "imhongze@sjtu.edu.cn"
   # One entry per affiliation. `icon` is the little image used as the bullet
   # (put the files in images/logos/).
