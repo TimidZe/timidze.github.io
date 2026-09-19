@@ -4,13 +4,23 @@
   {% if site.author.photo %}
   <img class="profile-photo" src="{{ site.author.photo | relative_url }}" alt="{{ site.author.name }}">
   {% endif %}
-  <div class="profile-meta">
-    {% for t in site.author.titles %}<div>{{ t }}</div>{% endfor %}
-    {% if site.author.email %}<div>Email: {{ site.author.email | replace: '@', ' <b>at</b> ' | replace: '.', ' <b>dot</b> ' }}</div>{% endif %}
-    {% if site.author.links and site.author.links.size > 0 %}
-    <div class="profile-links">
-      {% for l in site.author.links %}<a href="{{ l.url }}">{{ l.name }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
-    </div>
+  <ul class="affiliations">
+    {% for t in site.author.titles %}
+    <li>
+      {% if t.icon %}<img class="aff-icon" src="{{ t.icon | relative_url }}" alt="" onerror="this.style.display='none'">{% endif %}
+      <span>{{ t.text | default: t }}</span>
+    </li>
+    {% endfor %}
+    {% if site.author.email %}
+    <li>
+      {% if site.author.email_icon %}<img class="aff-icon" src="{{ site.author.email_icon | relative_url }}" alt="Email">{% endif %}
+      <span>{{ site.author.email | replace: '@', ' <b>at</b> ' | replace: '.', ' <b>dot</b> ' }}</span>
+    </li>
     {% endif %}
+  </ul>
+  {% if site.author.links and site.author.links.size > 0 %}
+  <div class="profile-links">
+    {% for l in site.author.links %}<a href="{{ l.url }}">{{ l.name }}</a>{% unless forloop.last %} &middot; {% endunless %}{% endfor %}
   </div>
+  {% endif %}
 </div>

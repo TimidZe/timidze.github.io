@@ -15,11 +15,16 @@ author:
   name      : "Hongze Song"
   photo     : "/images/profile.png"
   email     : "imhongze@sjtu.edu.cn"
-  # One line per affiliation / title. Add or remove lines freely.
+  # One entry per affiliation. `icon` is the little image used as the bullet
+  # (put the files in images/logos/).
   titles:
-    - "M.Sc. in Power Engineering, Shanghai Jiao Tong University (SJTU), Shanghai, China (expected March 2027)"
-    - "Summer Research Intern, Aalto Science Institute (AScI), Aalto University, Espoo, Finland"
-    - "B.Eng. in Mechanical and Electronic Engineering, East China University of Science and Technology (ECUST), Shanghai, China"
+    - text: "M.Sc. in Power Engineering, Shanghai Jiao Tong University (SJTU), Shanghai, China (expected March 2027)"
+      icon: "/images/logos/sjtu.png"
+    - text: "Summer Research Intern, Aalto Science Institute (AScI), Aalto University, Espoo, Finland"
+      icon: "/images/logos/aalto.png"
+    - text: "B.Eng. in Mechanical and Electronic Engineering, East China University of Science and Technology (ECUST), Shanghai, China"
+      icon: "/images/logos/ecust.png"
+  email_icon : "/images/logos/mail.svg"
   # Optional external links shown under the header (e.g. CV, Google Scholar,
   # GitHub). Currently switched off — uncomment and fill in to show them.
   # links:
