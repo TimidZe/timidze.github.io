@@ -8,15 +8,26 @@ permalink: /
 
 ## About Me
 
-PLACEHOLDER — a short paragraph about who you are: your current programme and
-institution, your advisor, and the one-sentence version of what you work on.
+I am a master's student in Power Engineering at Shanghai Jiao Tong University.
+My thesis sits at the intersection of machine learning and human
+thermophysiological modelling — using data-driven methods to make
+physics-based simulations of the human body faster, more accurate and more
+personal.
 
-PLACEHOLDER — a second paragraph about your research interests: the problems you
-care about, the methods you use, and the kind of position you are looking for
-next. Feel free to link to things, e.g. [my CV](/files/cv.pdf).
+I came to this from mechanical engineering. My undergraduate degree at East
+China University of Science and Technology was in mechanical and electronic
+engineering, so my training began with mechanical design and control theory,
+and my bachelor's thesis dealt with sensing algorithms for mobile robots. That
+background still shapes how I work: I tend to reach for a physical model
+first, and to treat learning-based methods as a way to extend it rather than
+to replace it.
 
-PLACEHOLDER — optional third paragraph: background (BEng, previous institution),
-internships or visiting experience, and anything else worth surfacing at the top.
+What has stayed constant across both degrees is an interest in what is
+happening at the frontier of technology, and a preference for combining ideas
+across fields instead of staying inside one. Looking ahead, I want to work on
+AI for healthcare — medical imaging and generative models, medical foundation
+models, and robotics for clinical applications — where methods that are moving
+quickly can be turned into something that genuinely helps people.
 
 ## Research Projects
 

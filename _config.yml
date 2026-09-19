@@ -10,7 +10,6 @@ lang             : "en"
 
 # ---------------------------------------------------------------------------
 # Personal information shown in the page header
-# (placeholders — replace with your own details)
 # ---------------------------------------------------------------------------
 author:
   name      : "Hongze Song"
@@ -18,17 +17,14 @@ author:
   email     : "imhongze@sjtu.edu.cn"
   # One line per affiliation / title. Add or remove lines freely.
   titles:
-    - "MSc Student, China-UK Low Carbon College, Shanghai Jiao Tong University"
-    - "PLACEHOLDER: second affiliation / position"
-    - "PLACEHOLDER: third affiliation / position"
-  # Optional external links shown under the header. Delete any you don't use.
-  links:
-    - name: "CV"
-      url: "/files/cv.pdf"
-    - name: "Google Scholar"
-      url: "PLACEHOLDER"
-    - name: "GitHub"
-      url: "https://github.com/TimidZe"
+    - "M.Sc. in Power Engineering, Shanghai Jiao Tong University (SJTU), Shanghai, China (expected March 2027)"
+    - "Summer Research Intern, Aalto Science Institute (AScI), Aalto University, Espoo, Finland"
+    - "B.Eng. in Mechanical and Electronic Engineering, East China University of Science and Technology (ECUST), Shanghai, China"
+  # Optional external links shown under the header (e.g. CV, Google Scholar,
+  # GitHub). Currently switched off — uncomment and fill in to show them.
+  # links:
+  #   - name: "CV"
+  #     url: "/files/cv.pdf"
 
 # ---------------------------------------------------------------------------
 # Build settings
