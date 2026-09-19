@@ -1,41 +1,15 @@
-# Publications, grouped by topic (or by year — the group name is free text).
-# Delete or add groups and items as you like.
+# Publications. `group` is a heading (e.g. "Journal Articles"); leave it empty
+# to list the papers with no heading. venue / year / note / url / links are all
+# optional — leave them out until the paper has a home.
 
-- group: "Journal Articles"
+- group: ""
   items:
-    - title: "PLACEHOLDER — title of the first paper"
-      authors: "Hongze Song, Co-Author A, Co-Author B"
-      venue: "PLACEHOLDER Journal Name"
-      year: 2026
-      note: "under review"
-      url: ""
-      links:
-        - name: "PDF"
-          url: "#"
-        - name: "arXiv"
-          url: "#"
-
-    - title: "PLACEHOLDER — title of the second paper"
-      authors: "Co-Author A, Hongze Song, Co-Author B"
-      venue: "PLACEHOLDER Journal Name"
-      year: 2025
-      links:
-        - name: "DOI"
-          url: "#"
-
-- group: "Conference Papers"
-  items:
-    - title: "PLACEHOLDER — title of a conference paper"
-      authors: "Hongze Song, Co-Author A"
-      venue: "PLACEHOLDER Conference (ABBR)"
-      year: 2025
-      links:
-        - name: "PDF"
-          url: "#"
-
-- group: "Preprints"
-  items:
-    - title: "PLACEHOLDER — title of a preprint"
-      authors: "Hongze Song, Co-Author A"
-      venue: "arXiv:0000.00000"
-      year: 2026
+    - title: "Human thermophysiological digital twins: physics-constrained spatiotemporal forecasting with neural mixture of experts"
+      authors: "Hongze Song, Lei Li, Wei Zhang, Xue Dong, Malcolm M. Q. Xing and Shuogui Xu"
+      venue: ""
+      # year: 2026
+      # note: "under review"
+      # url: "https://..."
+      # links:
+      #   - name: "PDF"
+      #     url: "https://..."

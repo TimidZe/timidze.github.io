@@ -1,5 +1,5 @@
 <ul class="award-list">
   {% for a in site.data.awards %}
-  <li><span class="award-year">{{ a.year }}</span> {{ a.title }}{% if a.org %}, <span class="award-org">{{ a.org }}</span>{% endif %}</li>
+  <li>{% if a.year %}<span class="award-year">{{ a.year }}</span> {% endif %}{{ a.title }}{% if a.org %}, <span class="award-org">{{ a.org }}</span>{% endif %}</li>
   {% endfor %}
 </ul>

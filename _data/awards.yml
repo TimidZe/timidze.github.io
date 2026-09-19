@@ -1,13 +1,16 @@
-# Awards and honours, most recent first.
+# Awards and honours, most recent first. `year` is optional.
 
-- year: 2025
-  title: "PLACEHOLDER — name of the award or scholarship"
-  org: "PLACEHOLDER Awarding Institution"
+- title: "Outstanding Poster Presentation"
+  org: "Aalto Science Institute (AScI), Aalto University"
 
-- year: 2024
-  title: "PLACEHOLDER — name of the award or scholarship"
-  org: "PLACEHOLDER Awarding Institution"
+- title: "Outstanding Member of the Youth League"
+  org: "Shanghai Jiao Tong University"
 
-- year: 2023
-  title: "PLACEHOLDER — name of the award or scholarship"
-  org: "PLACEHOLDER Awarding Institution"
+- title: "First-Class Academic Scholarship"
+  org: "Shanghai Jiao Tong University"
+
+- title: "Outstanding Graduate"
+  org: "East China University of Science and Technology"
+
+- title: "Outstanding Student Award"
+  org: "East China University of Science and Technology"

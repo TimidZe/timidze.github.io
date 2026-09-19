@@ -18,11 +18,11 @@ author:
   # One entry per affiliation. `icon` is the little image used as the bullet
   # (put the files in images/logos/).
   titles:
-    - text: "M.Sc. in Power Engineering, Shanghai Jiao Tong University (SJTU), Shanghai, China (expected March 2027)"
+    - text: "M.Sc. @ Shanghai Jiao Tong University (SJTU), Shanghai, China (expected March 2027)"
       icon: "/images/logos/sjtu.png"
-    - text: "Summer Research Intern, Aalto Science Institute (AScI), Aalto University, Espoo, Finland"
+    - text: "Summer Research Intern (AScI) @ Aalto University, Espoo, Finland"
       icon: "/images/logos/aalto.png"
-    - text: "B.Eng. in Mechanical and Electronic Engineering, East China University of Science and Technology (ECUST), Shanghai, China"
+    - text: "B.Eng @ East China University of Science and Technology (ECUST), Shanghai, China"
       icon: "/images/logos/ecust.png"
   # Optional external links shown under the header (e.g. CV, Google Scholar,
   # GitHub). Currently switched off — uncomment and fill in to show them.
