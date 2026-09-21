@@ -213,6 +213,16 @@ blockquote {
   color: var(--muted);
 }
 
+.project-body h4 {
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--muted);
+  margin: 1.6em 0 .35em;
+}
+
+.project-body h4:first-child { margin-top: 0; }
+
 .project-links { margin-top: 1.8em; font-size: .95em; }
 
 /* ---- Publications ------------------------------------------------------ */
