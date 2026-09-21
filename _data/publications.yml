@@ -5,8 +5,8 @@
 - group: ""
   items:
     - title: "Human thermophysiological digital twins: physics-constrained spatiotemporal forecasting with neural mixture of experts"
-      authors: "Hongze Song, Lei Li, Wei Zhang, Xue Dong, Malcolm M. Q. Xing and Shuogui Xu"
-      venue: ""
+      authors: "<b>Hongze Song</b>, Lei Li, Wei Zhang, Xue Dong<sup>*</sup>, Malcolm M. Q. Xing<sup>*</sup> and Shuogui Xu<sup>*</sup>"
+      venue: "Manuscript in preparation, to be submitted Sep. 2026"
       # year: 2026
       # note: "under review"
       # url: "https://..."
