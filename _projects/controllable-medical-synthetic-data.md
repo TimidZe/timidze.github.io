@@ -2,6 +2,8 @@
 title: "AnySyn: A diffusion-based framework for multimodality synthetic tasks"
 order: 1
 image: /images/projects/Project1.png
+additional_image: /images/projects/AnySyn-overview.png
+additional_image_alt: "AnySyn overview showing joint generation, any-subset completion, and cross-dataset synthesis."
 ---
 
 #### Formulation

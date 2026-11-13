@@ -8,8 +8,11 @@ layout: default
 {% if page.subtitle %}<p class="project-subtitle">{{ page.subtitle }}</p>{% endif %}
 
 {% if page.image %}
-<figure class="project-figure">
+<figure class="project-figure{% if page.additional_image %} project-figure-stack{% endif %}">
   <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+  {% if page.additional_image %}
+  <img src="{{ page.additional_image | relative_url }}" alt="{{ page.additional_image_alt | default: page.title }}">
+  {% endif %}
   {% if page.caption %}<figcaption>{{ page.caption }}</figcaption>{% endif %}
 </figure>
 {% endif %}

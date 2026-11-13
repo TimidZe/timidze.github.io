@@ -207,6 +207,8 @@ blockquote {
 
 .project-figure { margin: 0 0 1.6em; }
 .project-figure img { display: block; width: 100%; border: 1px solid var(--border); }
+.project-figure-stack { background: #fff; border: 1px solid var(--border); }
+.project-figure-stack img { height: auto; margin: 0; border: 0; }
 .project-figure figcaption {
   margin-top: .55em;
   font-size: .88em;
